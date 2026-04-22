@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+/* ヘッダー */
+header{
+    background-color: blueviolet;
+}
+.ulca-base{
+    max-width: 8%;
+    margin: 10px;
+}
+
+/* section */
+.item{
+    width: 70%;
+}
+.exp{
+    display: flex;
+}
+
+.post {
+    max-width: 90%;
+    display: flex;
+}
+
+.contener{
+    display: flex;
+}
+
+/* サイドバー */
+.sideber{
+    line-height: 2rem;
+}
+.side-menu a:hover{
+    color: red;
+}
+
+
+ /* @media (min-width: 800px)  */
+ {
+    .main-category{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sideber{
+        width: 30%;
+    }
+    .contents{
+        width: 70%;
+    }
+}
